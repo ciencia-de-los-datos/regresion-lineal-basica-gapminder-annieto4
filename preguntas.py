@@ -91,10 +91,10 @@ def pregunta_03():
     )
 
     # Asigne a la variable los valores de la columna `fertility`
-    X_fertility = df['fertility'].reshape(1,-1)
+    X_fertility = df['fertility']
 
     # Asigne a la variable los valores de la columna `life`
-    y_life = df['life'].reshape(1,-1)
+    y_life = df['life']
 
     # Importe LinearRegression
     from sklearn import LinearRegression
