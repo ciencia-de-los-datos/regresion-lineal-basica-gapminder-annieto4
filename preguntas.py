@@ -97,7 +97,7 @@ def pregunta_03():
     y_life = df['life']
 
     # Importe LinearRegression
-    from sklearn import LinearRegression
+    from sklearn.linear_model import LinearRegression
 
     # Cree una instancia del modelo de regresión lineal
     reg = LinearRegression(
@@ -134,7 +134,10 @@ def pregunta_04():
     from ____ import ____
 
     # Lea el archivo `gm_2008_region.csv` y asignelo al DataFrame `df`
-    df = ____
+    df = pd.read_csv(
+        'gm_2018_region.csv',
+
+    )
 
     # Asigne a la variable los valores de la columna `fertility`
     X_fertility = ____
