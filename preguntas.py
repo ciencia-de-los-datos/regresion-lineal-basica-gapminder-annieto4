@@ -137,7 +137,7 @@ def pregunta_04():
 
     # Lea el archivo `gm_2008_region.csv` y asignelo al DataFrame `df`
     df = pd.read_csv(
-        'gm_2018_region.csv',
+        'gm_2008_region.csv',
         sep=',',
         thousands=None,
         decimal='.',
